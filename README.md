@@ -1,2 +1,2 @@
-# SoloLearn-boilerplate
+# SoloLearn-BoilerPlate
 Boilerplate for Sololearn challenges
