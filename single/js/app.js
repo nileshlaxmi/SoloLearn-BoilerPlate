@@ -6,7 +6,6 @@ const clickFunction = () => {
     else{
         document.getElementById('opText').innerHTML = "Please enter a number";
     }
-    
 }
 
 function clearFields(){
