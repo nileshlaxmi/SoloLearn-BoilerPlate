@@ -1,22 +1,20 @@
 const clickFunction = () => {
-    let str = document.getElementById('ipText').value;
-    if(str !== ""){
-        document.getElementById('opText').innerHTML = str;
-    }
-    else{
-        document.getElementById('opText').innerHTML = "Please enter a number";
-    }
+    computeFunction();
 }
 
 const enterKeyFunction = (event) => {
     if (event.which == 13 || event.keyCode == 13) {
-        let str = document.getElementById('ipText').value;
-        if (str !== "") {
-            document.getElementById('opText').innerHTML = str;
-        }
-        else {
-            document.getElementById('opText').innerHTML = "Please enter a number";
-        }
+        computeFunction();
+    }
+}
+
+const computeFunction = () => {
+    let str = document.getElementById('ipText').value;
+    if (str !== "") {
+        return document.getElementById('opText').innerHTML = str;
+    }
+    else {
+        return document.getElementById('opText').innerHTML = "Please enter a number";
     }
 }
 
