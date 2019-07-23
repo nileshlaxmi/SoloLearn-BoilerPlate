@@ -1,35 +1,38 @@
-body{
+body {
     background-color: #000;
 }
 
-#outer{    
+#outer {
     position: relative;
     background-color: #000;
     height: auto;
 }
 
-#inner{
+#inner {
     position: absolute;
     margin: auto;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     height: auto;
-    width: 600px;    
+    width: 600px;
     background-color: #ce0000;
     border-radius: 10px;
     color: #fff;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-#ipText{
+#ipText {
     font-size: 20px;
     margin-left: 10%;
     width: 50%;
 }
 
-button{
+button {
     border-radius: 5px;
     padding: 8px;
     margin: 5px;
@@ -37,9 +40,9 @@ button{
     letter-spacing: 1px;
     background-color: #720000;
     color: #fff;
-}  
+}
 
-#opText{
+#opText {
     text-align: center;
     font-size: 25px;
 }

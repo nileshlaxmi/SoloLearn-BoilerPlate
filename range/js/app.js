@@ -28,13 +28,12 @@ const computeFunction = () => {
                 return document.getElementById('opText').appendChild(para);
             }
         }
-    }
-    else {
+    } else {
         return document.getElementById('opText').innerHTML = "Please enter a number";
     }
 }
 
-function clearFields(){
+function clearFields() {
     document.getElementById('ipText').value = "";
     document.getElementById('opText').innerHTML = "";
 }

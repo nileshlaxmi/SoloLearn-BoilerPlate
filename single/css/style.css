@@ -1,46 +1,138 @@
-body{
+body {
     background-color: #000;
 }
 
-#outer{    
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#outer {
     position: relative;
     background-color: #000;
-    height: 550px;
 }
 
-#inner{
+#inner {
     position: absolute;
     margin: auto;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     border: 2px solid rgb(252, 243, 243);
-    height: 200px;
-    width: 600px;    
     background-color: #ce0000;
     border-radius: 10px;
     color: #fff;
 }
 
-h2{
-    text-align: center;
-}
-
-#ipText{
-    font-size: 20px;
-    margin-left: 10%;
-    width: 50%;
-}
-
-button{
+button {
     border-radius: 5px;
-    padding: 8px;
-    margin: 5px;
     font-weight: bold;
     letter-spacing: 1px;
     background-color: #720000;
     color: #fff;
-}  
+}
 
-#opText{
+#opText {
     text-align: center;
-    font-size: 25px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #outer {
+        height: 550px;
+    }
+
+    #inner {
+        height: 200px;
+        width: 600px;
+    }
+
+
+    #ipText {
+        font-size: 20px;
+        margin-left: 10%;
+        width: 50%;
+    }
+
+    button {
+        padding: 8px;
+        margin: 5px;
+    }
+
+    #opText {
+        font-size: 25px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #outer {
+        height: 550px;
+    }
+
+    #inner {
+        height: 200px;
+        width: 600px;
+    }
+
+
+    #ipText {
+        font-size: 20px;
+        margin-left: 10%;
+        width: 50%;
+    }
+
+    button {
+        padding: 8px;
+        margin: 5px;
+    }
+
+    #opText {
+        font-size: 25px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    #outer {
+        height: 40rem;
+    }
+
+    #inner {
+        height: 200px;
+        width: 80%;
+    }
+
+
+    #ipText {
+        font-size: 20px;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    button {
+        padding: 9px;
+    }
+
+    #opText {
+        font-size: 25px;
+    }
+
+    h2 {
+        margin: 1rem;
+    }
+    
+    p {
+        margin: -5px 1px
+    }
+
+    .div-button{
+
+    }
 }

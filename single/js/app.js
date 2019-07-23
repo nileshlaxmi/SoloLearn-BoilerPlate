@@ -12,13 +12,12 @@ const computeFunction = () => {
     let str = document.getElementById('ipText').value;
     if (str !== "") {
         return document.getElementById('opText').innerHTML = str;
-    }
-    else {
+    } else {
         return document.getElementById('opText').innerHTML = "Please enter a number";
     }
 }
 
-function clearFields(){
+function clearFields() {
     document.getElementById('ipText').value = "";
     document.getElementById('opText').innerHTML = "";
 }
